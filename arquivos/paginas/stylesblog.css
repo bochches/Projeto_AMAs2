@@ -217,31 +217,62 @@ form input, form button {
 }
 
 .info-lgbtfobia {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap; /* adapta para mobile */
+        padding: 2rem;
+        gap: 2rem;
+    }
 
-    background-color: #f9f9f9;
-    border: 1px solid #ddd; /* Adicione uma borda */
-    border-radius: 5px; /* Arredonde os cantos da caixa */
-    padding: 20px;
-    margin-top: 10px;
-    width: 100%; /* Completa a página horizontalmente */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: relative; /* Adiciona posição relativa */
-    z-index: 2; /* Define a ordem de empilhamento */
-}
-
-#info-lgbtfobia h2 {
-    font-size: 1.5em;
-    color: #333; /* Cor do texto */
-    text-align: center;
-}
-
-#info-lgbtfobia p {
-    font-size: 1em;
+#lgbt {
+    flex: 1 1 50%;
+    text-align: justify;
+    font-size: 1.1rem;
     line-height: 1.6;
-    color: #555; /* Cor do texto */
-    text-align:justify;
-    width: 97%;
 }
+
+.info-lgbtfobia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .info-lgbtfobia-text {
+    flex: 1 1 55%;
+  }
+
+  .info-lgbtfobia-text h2 {
+    font-size: 2.5rem;
+    color: #e91e63;
+    margin-bottom: 20px;
+  }
+
+  .info-lgbtfobia-text p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+    text-align: justify;
+  }
+
+  .info-lgbtfobia-img {
+    flex: 1 1 40%;
+  }
+
+  .info-lgbtfobia-img img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  @media (max-width: 768px) {
+    .info-lgbtfobia {
+      flex-direction: column;
+      text-align: left;
+    }
+  }
 
 footer {
     background-color: #1b3e1d;
