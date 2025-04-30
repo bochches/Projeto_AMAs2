@@ -12,40 +12,40 @@ header {
     color: white;
     text-align: center;
     top: 80px;
-            height: 80px;
-            padding-top: 120px;
+    height: 80px;
+    padding-top: 120px;
 }
 
 header nav ul {
     list-style-type: none;
     padding: 0;
     top: 80px;
-            height: 80px;
-            padding-top: 120px;
+    height: 80px;
+    padding-top: 120px;
 }
 
 header nav ul li {
     display: inline;
     margin: 0 10px;
     top: 80px;
-            height: 80px;
-            padding-top: 120px;
+    height: 80px;
+    padding-top: 120px;
 }
 
 header nav ul li a {
     color: white;
     text-decoration: none;
     top: 80px;
-            height: 80px;
-            padding-top: 120px;
+    height: 80px;
+    padding-top: 120px;
 }
 
 div.menu {
     background-color: white;
-    position:fixed;
+    position: fixed;
     display: flex;
     align-items: center;
-    justify-content:flex-start;
+    justify-content: flex-start;
     width: 100%;
     top: 0;
     padding: 0;
@@ -53,7 +53,7 @@ div.menu {
     z-index: 999;
 }
 
-img.logo{
+img.logo {
     width: 125px;
     height: 90px;
     margin-right: 20px;
@@ -82,10 +82,10 @@ nav a.menu-link:hover {
 
 h2 {
     text-align: center;
-    color: #4CAF50;
-    top: 80px;
-    height: 80px;
-    padding-top: 120px;
+    color: #0c0c0c;
+    top: 100px;
+    height: 60px;
+    padding-top: 110px;
 }
 
 .news-container {
@@ -133,7 +133,8 @@ form label {
     margin: 5px 0;
 }
 
-form input, form button {
+form input,
+form button {
     padding: 10px;
     margin: 5px 0;
     width: 200px;
@@ -153,23 +154,46 @@ form input, form button {
     text-align: center;
 }
 
+.eventos-atividades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  
+  .eventos-atividades .event {
+    flex: 0 0 48%; /* Duas colunas com espaço entre */
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+
+  .event {
+    width: auto; /* Remova width: 30% */
+    margin: 0; /* Remova o margin: auto */
+  }
+  
 .event {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
-    background-color: #5cf8aa;
+    margin-bottom: 20px;;
+    font-size: 23px;
+    background-color: #cea9a981;
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     height: 40%;
-    width: 90%; /* Aumenta a largura dos quadros */
-    max-width: 800px; /* Aumenta a largura máxima dos quadros */
+    width: 30%;
+    /* Aumenta a largura dos quadros */
+    max-width: 700px;
+    /* Aumenta a largura máxima dos quadros */
     margin: 10px auto;
     transition: transform 0.3s ease;
-    position: relative; /* Adiciona posição relativa */
-    z-index: 1; /* Define a ordem de empilhamento */
+    z-index: 2;
+    /* Define a ordem de empilhamento */
 }
 
 .event:hover {
@@ -214,16 +238,18 @@ form input, form button {
     margin: 5px 0 0;
     text-align: center;
     color: #666;
+    margin-top: 8px;
 }
 
 .info-lgbtfobia {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap; /* adapta para mobile */
-        padding: 2rem;
-        gap: 2rem;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* adapta para mobile */
+    padding: 2rem;
+    gap: 2rem;
+}
 
 #lgbt {
     flex: 1 1 50%;
@@ -238,41 +264,41 @@ form input, form button {
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-  }
+}
 
-  .info-lgbtfobia-text {
+.info-lgbtfobia-text {
     flex: 1 1 55%;
-  }
+}
 
-  .info-lgbtfobia-text h2 {
+.info-lgbtfobia-text h2 {
     font-size: 2.5rem;
     color: #e91e63;
     margin-bottom: 20px;
-  }
+}
 
-  .info-lgbtfobia-text p {
+.info-lgbtfobia-text p {
     font-size: 1.1rem;
     line-height: 1.7;
     color: #333;
     text-align: justify;
-  }
+}
 
-  .info-lgbtfobia-img {
+.info-lgbtfobia-img {
     flex: 1 1 40%;
-  }
+}
 
-  .info-lgbtfobia-img img {
+.info-lgbtfobia-img img {
     max-width: 100%;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  }
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     .info-lgbtfobia {
-      flex-direction: column;
-      text-align: left;
+        flex-direction: column;
+        text-align: left;
     }
-  }
+}
 
 footer {
     background-color: #1b3e1d;
