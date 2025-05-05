@@ -75,7 +75,7 @@ img.logo{
 }
 
 nav {
-    background-color:  rgb(243, 138, 138);
+    background-color:  #eec9c9;
     padding: 10px 0;
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -157,8 +157,8 @@ section#datas h2 {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #ff6b6b;
-    color: white;
+    background-color: #eec9c9;
+    color: rgb(17, 17, 17);
     box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
 }
 
