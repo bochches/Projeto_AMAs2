@@ -70,8 +70,14 @@ section {
 }
 
 /* Estilos para Imagens na Home */
-#home img {
-    width: 100%;
+#imagem-centralizada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .imagem-centralizada img {
+    max-width: 20%;
     height: auto;
 }
 
