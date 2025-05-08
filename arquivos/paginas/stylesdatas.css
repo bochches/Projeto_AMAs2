@@ -80,8 +80,9 @@ nav {
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     position: sticky;
-    top: 60px; /* Ajuste para considerar a altura do menu fixo */
+    top: 80px; /* Ajuste para considerar a altura do menu fixo */
     z-index: 1000; 
+    padding-top: 2%;
 }
 
 nav ul {
@@ -94,7 +95,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 5px 15px;
 }
 
 nav ul li a {
@@ -146,8 +147,8 @@ section#datas h2 {
 }
 
 .month img {
-    max-width: 60%;
-    height: auto;
+    max-width: 70%;
+    
     border-radius: 15px;
     margin-top: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
