@@ -75,13 +75,14 @@ img.logo{
 }
 
 nav {
-    background-color:  rgb(243, 138, 138);
+    background-color:  #eec9c9;
     padding: 10px 0;
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     position: sticky;
-    top: 60px; /* Ajuste para considerar a altura do menu fixo */
+    top: 80px; /* Ajuste para considerar a altura do menu fixo */
     z-index: 1000; 
+    padding-top: 2%;
 }
 
 nav ul {
@@ -94,7 +95,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 5px 15px;
 }
 
 nav ul li a {
@@ -136,17 +137,6 @@ section#datas h2 {
     transform: translateY(20px);
 }
 
-footer {
-    background-color: #fff; /* Cor de fundo branco */
-    color: #333; /* Cor do texto cinza escuro */
-    text-align: center; /* Centraliza o conteúdo */
-    padding: 20px 0; /* Espaçamento interno no topo e na base */
-    font-size: 14px; /* Tamanho de fonte pequeno */
-    margin-top: 40px; /* Espaçamento superior do rodapé */
-    border-top: 1px solid #ddd; /* Linha sutil no topo do rodapé */
-}
-
-
 .month.active {
     display: block;
     opacity: 1;
@@ -154,8 +144,8 @@ footer {
 }
 
 .month img {
-    max-width: 100%;
-    height: auto;
+    max-width: 70%;
+    
     border-radius: 15px;
     margin-top: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -169,8 +159,8 @@ footer {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #ff6b6b;
-    color: white;
+    background-color: #eec9c9;
+    color: rgb(17, 17, 17);
     box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
 }
 
